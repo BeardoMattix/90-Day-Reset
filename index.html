@@ -14,5 +14,34 @@
     <link rel="stylesheet" href="style.css" />
     <title>Every 90 Days</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="display-2">Random and Secure</h1>
+        <h2 class="h3">
+          Every 90 days we need a new secure password, but what if you have run
+          out of ideas? Use this app to generate a new password!
+        </h2>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate Your Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn btn-success">
+            Generate Password
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

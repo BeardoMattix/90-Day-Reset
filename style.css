@@ -13,8 +13,10 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  /* font-family: sans-serif; */
+  /* background-color: #005018; */
+  background-image: url(./images/luis-gherasim-ukAQqCZTvq4-unsplash.jpg);
+  background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -27,7 +29,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(200, 11%, 95%);
 }
 
 .card {
