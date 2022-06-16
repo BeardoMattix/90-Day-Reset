@@ -31,6 +31,23 @@ header {
   padding-top: 0px;
   color: hsl(200, 11%, 95%);
 }
+header .display-2 {
+    color: rgb(244, 244, 244);
+}
+
+header .h2 {
+    color:rgb(19, 19, 18);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px 1px #c0c7cf;
+}
+.desc {
+    background-color: rgba(245, 245, 220, 0.445);
+    width: 75%;
+    border-radius: 15px;
+    margin: auto;
+}
 
 .card {
   background-color: hsl(0, 0%, 100%);
