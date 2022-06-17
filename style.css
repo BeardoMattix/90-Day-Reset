@@ -75,7 +75,7 @@ header .h2 {
 }
 
 .card-body {
-  min-height: 100px;
+  min-height: 100px;  
 }
 
 .card-footer {
@@ -98,7 +98,7 @@ header .h2 {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  /*background-color: hsl(360, 91%, 36%);*/
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -121,7 +121,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#password, #parameters {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
