@@ -27,9 +27,11 @@ body {
 
 header {
   text-align: center;
+  font-family: monospace;
   padding: 20px;
-  padding-top: 0px;
+  padding-top: 20px;
   color: hsl(200, 11%, 95%);
+  text-shadow: 1px 1px 1px #232323;
 }
 header .display-2 {
     color: rgb(244, 244, 244);
