@@ -28,10 +28,10 @@ function generatePassword() {
     alert("Your password will contain " + confirmLength + " characters.");
 
     //Passwrod parameters
-    var confirmSpecialCharacter = confirm("Click OK to confirm you woiuld like to include Special Characters in your Password");
-    var confirmNumericCharacter = confirm("Click OK to confirm you woiuld like to include Numeric Characters in your Password");
-    var confirmLowerCase = confirm("Click OK to confirm you woiuld like to include Lower Case Characters in your Password");
-    var confirmUpperCase = confirm("Click OK to confirm you woiuld like to include Uppercase Characters in your Password");
+    var confirmSpecialCharacter = confirm("Click OK to confirm you would like to include Special Characters in your Password");
+    var confirmNumericCharacter = confirm("Click OK to confirm you would like to include Numeric Characters in your Password");
+    var confirmLowerCase = confirm("Click OK to confirm you would like to include Lower Case Characters in your Password");
+    var confirmUpperCase = confirm("Click OK to confirm you would like to include Uppercase Characters in your Password");
 
     //Loop to catch if the user answers outside of the parameters
     while(confirmUpperCase === false && confirmLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
