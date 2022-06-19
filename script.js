@@ -1,5 +1,24 @@
 /* Event listener to create question prompts*/
 document.querySelector("#generate").addEventListener("click", writePassword);
+document.querySelector(".special").addEventListener("click", addSpecialChar);
+document.querySelector(".numeric").addEventListener("click", addNumericChar);
+document.querySelector(".upper").addEventListener("click", addUpperChar);
+document.querySelector(".lower").addEventListener("click", addLowerChar);
+
+//Fucntions for adding elements to divs for parameters.
+
+function addSpecialChar() {
+    document.querySelector(".special").setAttribute("id", "specialChar");
+};
+function addNumericChar() {
+    document.querySelector(".numeric").setAttribute("id", "numericalChar");
+};
+function addLowerChar() {
+    document.querySelector(".lower").setAttribute("id", "lowerChar");
+};
+function addUpperChar() {
+    document.querySelector(".upper").setAttribute("id", "upperChar");
+};
 
 /* Arrays for generating random password values */
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
