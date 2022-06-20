@@ -8,6 +8,18 @@
 
 The random password generator takes in parameters given by the user to generate the necessary password need for the desired credentials.
 
+## Instructions
+
+- List number of characters required for password generation
+- For special characters, toggle on if needed.
+- For numerical characters, toggle on if needed.
+- For uppercase alphabet characters, toggle on if needed.
+- For lowercase alphabet characters, toggle on if needed
+- Click Generate Password button
+
+The desired password will display in the "Password Results" section.
+If you need to start over, simply click the reset button to begin the process over.
+
 ## Programming Languages
 
 <p>
@@ -20,7 +32,7 @@ The random password generator takes in parameters given by the user to generate 
 ## Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Xcode-007ACC?style=flat-square&logo=Xcode&logoColor=white" />
 </p>
 
 ## Contributors
