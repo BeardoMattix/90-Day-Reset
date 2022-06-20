@@ -1,3 +1,11 @@
+* {
+  font-family: 'FontAwesome';
+  src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0");
+  src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -13,16 +21,17 @@ body,
 }
 
 body {
-  /* font-family: sans-serif; */
-  /* background-color: #005018; */
+ 
   background-image: url(./images/luis-gherasim-ukAQqCZTvq4-unsplash.jpg);
+  background-color: #ccc;
   background-repeat: no-repeat;
+  
 }
 
 .wrapper {
   padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 
 header {
@@ -30,40 +39,55 @@ header {
   font-family: monospace;
   padding: 20px;
   padding-top: 20px;
-  color: hsl(200, 11%, 95%);
+
+  color: #222;
+  width: 65%;
+  margin: auto;
   text-shadow: 1px 1px 1px #232323;
 }
+
 header .display-2 {
-    color: rgb(244, 244, 244);
+  color: rgb(244, 244, 244);
+  /* color: #222; */
 }
 
 header .h2 {
-    color:rgb(11, 11, 11);
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    padding: 5px;
-    text-shadow: 1px 1px 1px #c0c7cf;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  ;
+  padding: 10px;
+  /* text-shadow: 1px 1px 1px #c0c7cf; */
+  text-shadow: 1px 1px 1px #232323;
 }
+
 .desc {
-    background-color: rgba(245, 245, 220, 0.445);
-    width: 75%;
-    border-radius: 15px;
-    margin: auto;
+
+  background-color: #10455bcd;
+  width: 75%;
+  border-radius: 15px;
+  margin: auto;
+  padding: 5px;
 }
 
 .card {
-  /* background-color: hsla(0, 0%, 100%, 0.898); */
+
   background-color: #007F7F;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  /* color: hsl(206, 17%, 28%); */
+
   color: white;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  
+}
+
+textarea {
+  border-radius: .1em;
 }
 
 .card-header::after {
@@ -75,7 +99,7 @@ header .h2 {
 }
 
 .card-body {
-  min-height: 100px;  
+  min-height: 100px;
 }
 
 .card-footer {
@@ -98,10 +122,9 @@ header .h2 {
 
 .btn {
   border: none;
-  /*background-color: hsl(360, 91%, 36%);*/
+
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -121,7 +144,34 @@ button[disabled] {
   float: right;
 }
 
-#password, #parameters {
+input, #passwordLength {
+  width: 50%;
+}
+
+input[type=text],
+textarea {
+  width: 50%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #222;
+  box-shadow: none;
+  /* background-color: #10455B; */
+  background-color: #ffffff;
+  /* color: #eaedef; */
+  color: #000000;
+  transition: .5s all;
+}
+
+.reset-btn {
+  background-color: #10455B;
+}
+
+.reset-btn:hover {
+  background-color: #35aee1;
+}
+
+#password,
+#parameters {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -142,6 +192,16 @@ button[disabled] {
   overflow: hidden;
 }
 
+.footer {
+  background-color: #10455bdf;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 20px;
+  position:relative;
+  padding: 20px;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -152,10 +212,19 @@ button[disabled] {
   #password {
     font-size: 1rem;
   }
+
+  header {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+
+  header {
+    width: 100%;
+    padding: 20px;
   }
 }

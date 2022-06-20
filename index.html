@@ -1,5 +1,5 @@
-<!DOCTYPE SpecialCharacters>
-<SpecialCharacters lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
   <head>
     <meta charset="UTF-8" />
@@ -18,18 +18,22 @@
         <h1 class="display-2">Random Secure Passwords</h1>
         <div class="desc">
           <h2 class="h2 text-center">
-            Every 90 days you need a new secure password, but what if you have
-            run out of ideas? Use this app to generate a new password!
+            Need a new password, but don't have any ideas?
           </h2>
+          <h3 class="h3 text-center text-light">
+            Generate a password that isn't stored anywhere other than where you decide, 
+            so you know your information is unique and secure.
+          </h3>
         </div>
       </header>
       <div class="card mb-5">
         <div class="card-header">
           <h2 class="text-center">Password Parameters</h2>
+          <h4 class="text-center text-warning">Passwords must be at least 8 characters long, and must include at least one of the parameters listed below.</h4>
         </div>
         <div class="card-body form-check-inline">
           <form>
-            <label for="passwordLength">How many Characters do you require?:</label>
+            <label class="h5 bold-text" for="passwordLength">How many characters do you require?:</label>
             <input type="text" id="passwordLength" name="passwordLength"><br><br>
 
             <div class="form-check form-switch special"><input class="form-check-input" type="checkbox"
@@ -47,26 +51,6 @@
             <div class="form-check form-switch lower"><input class="form-check-input" type="checkbox"
                 id="" ><label class="form-check-label"
                 for="flexSwitchCheckChecked">Do you need alphabet lowercase characters?</label></div>
-
-
-
-            <!-- <label for="includeNumbers">Do you need numerical characters?</label>
-            <input type="radio" id="includeNumbers" name="includeNumbers" checked value="yes">
-            <label for="includeNumbers">Yes</label>
-            <input type="radio" id="includeNumbers" name="includeNumbers" value="no">
-            <label for="includeNumbers">No</label><br><br>
-
-            <label for="alphabetUpper">Do you need uppercase alphabet characters?</label>
-            <input type="radio" id="alphabetUpper" name="alphabetUpper" checked value="yes">
-            <label for="alphabetUpper">Yes</label>
-            <input type="radio" id="alphabetUpper" name="alphabetUpper" value="no">
-            <label for="alphabetUpper">No</label><br><br>
-
-            <label for="alphabetLower">Do you need uppercase alphabet characters?</label>
-            <input type="radio" id="alphabetLower" name="alphabetLower" checked value="yes">
-            <label for="alphabetLower">Yes</label>
-            <input type="radio" id="alphabetLower" name="alphabetLower" value="no">
-            <label for="alphabetLower">No</label><br><br> -->
 
           </form>
 
@@ -86,10 +70,18 @@
             aria-label="Generated Password"></textarea>
         </div>
         <div class="card-footer">
-          <button class="btn btn-info" onClick="window.location.reload();">Reset</button>
+          <button class="btn reset-btn" onClick="window.location.reload();">Reset</button>
         </div>
       </div>
+      <div class="footer">
+        
+          <h4 class="text-center">Created by Aaron, RJ, and Chris</h4>
+          <p class="credits text-center">Hack-A-Thon 2022</p>
+
+      </div>
     </div>
+    
     <script src="script.js"></script>
   </body>
-</SpecialCharacters>
+ 
+</html>
