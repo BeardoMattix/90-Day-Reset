@@ -5,8 +5,8 @@ document.querySelector(".numeric").addEventListener("click", addNumericChar);
 document.querySelector(".upper").addEventListener("click", addUpperChar);
 document.querySelector(".lower").addEventListener("click", addLowerChar);
 
-//Fucntions for adding elements to divs for parameters.
 
+//Functions for adding elements to divs for parameters.
 function addSpecialChar() {
     document.querySelector(".special").setAttribute("id", "specialChar");
 };
@@ -35,7 +35,7 @@ var confirmLowerCase;
 
 // Prompt to confirm how many characters the user would like in their password
 function generatePassword() {
-    // var confirmLength = (prompt("How many characters would you like to include in your password?"));
+
     var confirmLength = document.getElementById("passwordLength").value;
 
     //Loop to check if user in within the parameters
@@ -44,27 +44,15 @@ function generatePassword() {
         alert("Password must be between 8 and 132 characters. Please try again.");
         var confirmLength = (prompt("How many characters would you like to include in your password?"));
     }
-    //Alert to confirm user character choice
-    alert("Your password will contain " + confirmLength + " characters.");
 
     //Passwrod parameters
-    // var confirmSpecialCharacter = confirm("Click OK to confirm you would like to include Special Characters in your Password");
+
     var confirmSpecialCharacter = document.getElementById("specialChar");
-    // var confirmNumericCharacter = confirm("Click OK to confirm you would like to include Numeric Characters in your Password");
     var confirmNumericCharacter = document.getElementById("numericalChar");
-    // var confirmLowerCase = confirm("Click OK to confirm you would like to include Lower Case Characters in your Password");
     var confirmLowerCase = document.getElementById("lowerChar");
-    // var confirmUpperCase = confirm("Click OK to confirm you would like to include Uppercase Characters in your Password");
     var confirmUpperCase = document.getElementById("upperChar");
 
-    //Loop to catch if the user answers outside of the parameters
-    // while(confirmUpperCase === false && confirmLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
-    //     alert("You MUST choose at least one parameter for your password. Please try again.");
-    //     var confirmSpecialCharacter = confirm("Click OK to confirm you would like to include special characters");
-    //     var confirmNumericCharacter = confirm("Click OK to confirm you would like to include numeric characters");    
-    //     var confirmLowerCase = confirm("Click OK to confirm you would like to include lowercase characters");
-    //     var confirmUpperCase = confirm("Click OK to confirm you would like to include uppercase characters");
-    // }
+   
 
     var passwordCharacters = [];
 
