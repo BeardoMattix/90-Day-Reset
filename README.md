@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-[![Header]([https://image.jpg](https://raw.githubusercontent.com/BeardoMattix/90-Day-Reset/main/images/IMG_8917%5B42%5D.jpg) "Header")](https://www.githubpagehere.com/)
+[![Header](https://raw.githubusercontent.com/BeardoMattix/90-Day-Reset/main/images/IMG_8917%5B42%5D.jpg "Header")](https://www.githubpagehere.com/)
 
 ## What our app does
 
