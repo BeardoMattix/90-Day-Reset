@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-[![Header](https://raw.githubusercontent.com/BeardoMattix/90-Day-Reset/main/images/image.png "Header")](https://github.com/BeardoMattix/90-Day-Reset)
+[![Header](./images/Screen%20Shot%201.png "Header")](https://github.com/BeardoMattix/90-Day-Reset)
 
 ## What our app does
 
@@ -18,6 +18,8 @@ The random password generator takes in parameters given by the user to generate 
 - Click Generate Password button
 
 The desired password will display in the "Password Results" section.
+
+![Header](./images/Screen%20Shot%20PW.png "screenshot")
 
 If you need to start over, simply click the "Reset" button to begin the process over.
 
