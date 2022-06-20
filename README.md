@@ -10,7 +10,7 @@ The random password generator takes in parameters given by the user to generate 
 
 ## Instructions
 
-- List number of characters required for password generation
+- Input number of characters required for password generation in the field box
 - For special characters, toggle on if needed.
 - For numerical characters, toggle on if needed.
 - For uppercase alphabet characters, toggle on if needed.
@@ -18,7 +18,8 @@ The random password generator takes in parameters given by the user to generate 
 - Click Generate Password button
 
 The desired password will display in the "Password Results" section.
-If you need to start over, simply click the reset button to begin the process over.
+
+If you need to start over, simply click the "Reset" button to begin the process over.
 
 ## Programming Languages
 
