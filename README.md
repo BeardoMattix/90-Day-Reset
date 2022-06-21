@@ -4,6 +4,9 @@
 
 [![Header](./images/Screen%20Shot%201.png "Header")](https://github.com/BeardoMattix/90-Day-Reset)
 
+### Deployed Site
+[Check out the Live Site](https://beardomattix.github.io/90-Day-Reset/)
+
 ## What our app does
 
 The random password generator takes in parameters given by the user to generate the necessary password need for the desired credentials.
